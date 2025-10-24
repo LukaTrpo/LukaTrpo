@@ -1,0 +1,80 @@
+body {
+    margin:0;
+    
+}
+
+
+h1 {
+ font-size:xx-large;
+ color:blueviolet;
+}
+
+img {
+
+    margin:50px;
+    height: 500px;
+    width:10px;
+}
+
+button {
+    height:50px;
+    width: 100px;
+}
+
+
+
+.navbar {
+    justify-content: center;
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction:row;
+    background-color: aqua;
+}
+
+.navbar-toggler {
+    border-color:black;
+   border-width: 10px;
+}
+
+
+
+.visually-hidden {
+    color:red;
+    font-size:x-large;
+}
+
+.dropdown {
+    margin-left: 100px;
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+
+.container-fluid {   /*it doesnt work as expected */
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-around;
+}
+
+.pagination {
+height: 20px;
+width: 60px;
+padding-top: 20px;
+padding-bottom:20px;
+padding-left: 800px;
+}
+
+.new_line {
+  background-color: #f9f9f9;
+  padding: 20px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+}
+
+.my-4 {
+    display:block;
+}
