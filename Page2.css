@@ -1,0 +1,14 @@
+body {
+    background-color:blueviolet;
+}
+
+img {       /*How to put an image into center, maybe with flexbox. So I will put img in container */ 
+    height:100%;  
+    width:50%;
+    align-self: center;
+}
+
+.Coloring {
+    display:flex;
+    justify-content:center;
+}
